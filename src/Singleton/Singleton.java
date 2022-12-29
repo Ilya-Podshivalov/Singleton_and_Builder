@@ -11,9 +11,9 @@ import java.util.StringTokenizer;
 
 public class Singleton {
     private static Singleton instance;
+    private String nameFile;
     private ArrayList<String> colorList = new ArrayList<String>();
     private ArrayList<Double> lengthList = new ArrayList<Double>();
-    String nameFile;
     protected Singleton(String nameFile) {
         this.nameFile = nameFile;
     }
